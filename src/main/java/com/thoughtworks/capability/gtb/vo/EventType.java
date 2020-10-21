@@ -8,4 +8,8 @@ public enum EventType {
   EventType(String code) {
     this.code = code;
   }
+
+  public String getCode(){
+    return this.code;
+  }
 }
